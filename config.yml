@@ -129,7 +129,7 @@ steps:
     actions:
       - type: respond
         with: appcontroller.md
-  - title: 'Week 4: Event Listener (After this, you're finished!)'
+  - title: 'Week 4: Event Listener (Final Step)'
     description: (Add Description Here)
     event: issue_comment.created
     link: '{{ repoUrl }}/pull/1'
