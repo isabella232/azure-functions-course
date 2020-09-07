@@ -1,4 +1,4 @@
-title: 'BitCamp: Creating a Song Recommendation Engine with Azure'
+title: 'Creating a Song Recommendation Engine with Azure (and Spotify API)'
 description: (Add Description Here)
 template:
   name: bit-camp-learning-lab
@@ -6,7 +6,7 @@ template:
 before:
   - type: createPullRequest
     head: bitcamp
-    title: 'BitCamp: Creating a Song Recommendation Engine with Azure'
+    title: 'Creating a Song Recommendation Engine with Azure (and Spotify API)'
     body: prerequisite.md
   - type: updateBranchProtection
 steps:
@@ -129,7 +129,7 @@ steps:
     actions:
       - type: respond
         with: appcontroller.md
-  - title: 'Week 4: Event Listener (Final Step)'
+  - title: 'Week 4: Event Listener (After this, you're finished!)'
     description: (Add Description Here)
     event: issue_comment.created
     link: '{{ repoUrl }}/pull/1'
@@ -138,5 +138,7 @@ steps:
         with: eventlistener.md
 tags:
   - Azure
+  - Azure Functions
   - Spotify API
   - Bit Project
+  - JavaScript
