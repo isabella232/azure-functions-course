@@ -6,7 +6,7 @@ template:
 before:
   - type: createPullRequest
     head: bitcamp
-    title: 'Week 0: Fundamentals of JavaScript'
+    title: 'BitCamp: Creating a Song Recommendation Engine with Azure'
     body: prerequisite.md
   - type: updateBranchProtection
 steps:
