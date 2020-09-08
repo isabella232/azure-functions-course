@@ -6,15 +6,12 @@ Serverless architectures offer greater scalability, more flexibility, and quicke
 
 ## **Week 1**
 **Learning Objectives**
-- Create and deploy an Azure Function
+- Create and deploy an Azure Function.
 - Intro to using beginner JS
 - Start working on request function
 - Download IDE (VS Code)
 - Sign up for Azure
 - Commit a Readme.md (how to commit files on github)
-- Learning fundamentals
-- making a digital clock
-- Create and deploy an HTTP trigger Azure Function that output the current time + date
 
 ## **Week 2**
 **Learning Objectives**
