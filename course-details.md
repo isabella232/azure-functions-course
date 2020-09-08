@@ -1,3 +1,5 @@
+### Course Description:
+
 Serverless architectures offer greater scalability, more flexibility, and quicker time to release, all at a reduced cost. Functions is also a great solution for processing bulk data, integrating systems, working with the internet-of-things (IoT), and building simple APIs and micro-services.
 
 ### Project Description
@@ -8,17 +10,11 @@ Serverless architectures offer greater scalability, more flexibility, and quicke
 - Create and deploy an Azure Function
 - Intro to using beginner JS
 - Start working on request function
-
-Setting Up 👷
 - Download IDE (VS Code)
 - Sign up for Azure
 - Commit a Readme.md (how to commit files on github)
-
-Intro to Javascript 💻
 - Learning fundamentals
 - making a digital clock
-
-Intro to Functions 🧰
 - Create and deploy an HTTP trigger Azure Function that output the current time + date
 
 ### **Week 2**
