@@ -4,7 +4,7 @@ Serverless architectures offer greater scalability, more flexibility, and quicke
 
 4-week course on using Azure Functions, Javascript, and External APIs.
 
-### **Week 1**
+## **Week 1**
 **Learning Objectives**
 - Create and deploy an Azure Function
 - Intro to using beginner JS
@@ -16,19 +16,19 @@ Serverless architectures offer greater scalability, more flexibility, and quicke
 - making a digital clock
 - Create and deploy an HTTP trigger Azure Function that output the current time + date
 
-### **Week 2**
+## **Week 2**
 **Learning Objectives**
 - Parsing multipart data + Outputting in JSON
 - Installing npm dependencies
 - Working with the Face API
 
-### **Week 3**
+## **Week 3**
 **Learning Objectives**
 - Calling Azure Functions
 - Learning HTML/CSS
 - Uploading Images with Forms
 
-### **Week 4**
+## **Week 4**
 **Learning Objectives**
 - Calling and Testing API Endpoints ft. Postman
 - Reading API Documentation
