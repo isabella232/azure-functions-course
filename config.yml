@@ -37,7 +37,7 @@ steps:
     link: '{{ repoUrl }}/pull/1'
     actions:
       - type: respond
-        with: github.md
+        with: parsing.md
   - title: 'Week 2: Creating a Face API Endpoint'
     description: Connecting Face API components.
     event: issue_comment.created
