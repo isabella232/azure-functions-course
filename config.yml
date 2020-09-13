@@ -4,9 +4,8 @@ template:
   name: bit-camp-learning-lab
   repo: azure-functions-template
 before:
-  - type: createPullRequest
-    head: bitcamp
-    title: 'Creating a Song Recommendation Engine with Azure (and Spotify API)'
+  - type: createIssue
+    title: 'Prerequisite'
     body: prerequisite.md
   - type: updateBranchProtection
 steps:
