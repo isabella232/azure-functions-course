@@ -6,23 +6,27 @@ template:
 before:
   - type: createIssue
     title: 'Prerequisite'
-    body: prerequisite.md
-  - type: updateBranchProtection
+    body: 00-prerequisite.md
+  
 steps:
   - title: 'Week 1: Downloading an IDE'
     description: Installing Visual Studio Code.
-    event: issue_comment.created
-    link: '{{ repoUrl }}/pull/1'
+    event: issues.closed
+    link: '{{ repoUrl }}/issues/1'
     actions:
-      - type: respond
-        with: ide.md
-  - title: 'Week 1: Configuring Azure Functions'
+      - type: createIssue
+        title: Creating an Azure Account and Function
+        body: 1.1-ide.md
+        
+  - title: 'Week 1: Visual Studio Code'
     description: Creating a Azure account and a basic function.
     event: issue_comment.created
     link: '{{ repoUrl }}/pull/1'
     actions:
-      - type: respond
-        with: azure.md
+      - type: createIssue
+        title: Set up Node.js environment
+        body: 01-environment.md
+        
   - title: 'Week 1: Learning to Use Github'
     description: Understanding how to use GitHub.
     event: issue_comment.created
