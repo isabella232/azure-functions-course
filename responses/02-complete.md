@@ -1,1 +1,1 @@
-[Click here for the next step]({{ repoUrl }}/issues/4)
+[That's it for week 2! Click here to move on to week 3!]({{ repoUrl }}/issues/4)
