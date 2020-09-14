@@ -100,7 +100,7 @@ steps:
     event: push
     link: '{{ repoUrl }}/pull/1'
     actions:
-       - type: respond
+      - type: respond
         with: 03-complete.md
         issue: 4
       - type: createIssue
