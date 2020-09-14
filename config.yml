@@ -95,6 +95,7 @@ steps:
     actions:
       - type: respond
         with: 3.2-displayData.md
+        issue: 4
   - title: 'Week 3: Displaying Emotion Data'
     description: Using JQuery to change HTML.
     event: push
