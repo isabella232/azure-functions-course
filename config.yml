@@ -115,48 +115,56 @@ steps:
     actions:
       - type: respond
         with: 4.2-apiController.md
+        issue: 5
   - title: 'Week 4: Making an API Controller'
     description: Starting integration with Spotify API.
     event: push
     actions:
       - type: respond
         with: 4.3-recParams.md
+        issue: 5
   - title: 'Week 4: Recommendation Parameters'
     description: Creating parameters for retrieving song.
     event: push
     actions:
       - type: respond
         with: 4.4-recCall.md
+        issue: 5
   - title: 'Week 4: Recommendation Call (GET)'
     description: Using GET method to call.
     event: push
     actions:
       - type: respond
         with: 4.5-apiCtrlReturn.md
+        issue: 5
   - title: 'Week 4: Return Method (API Controller)'
     description: Returning Spotify API recommendations.
     event: push
     actions:
       - type: respond
         with: 4.6-UIController.md
+        issue: 5
   - title: 'Week 4: UI Controller'
     description: Connecting recommendations to UI.
     event: push
     actions:
       - type: respond
         with: 4.7-appController.md
+        issue: 5
   - title: 'Week 4: App Controller'
     description: Using JQuery to embed in app.
     event: push
     actions:
       - type: respond
         with: 4.8-eventlistener.md
+        issue: 5
   - title: 'Week 4: Event Listener (Final Step)'
     description: Setup event listeners to finish web app.
     event: push
     actions:
       - type: respond
         with: 04-complete.md
+        issue: 5
 tags:
   - Azure
   - Azure Functions
